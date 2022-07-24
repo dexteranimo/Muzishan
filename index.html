@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon/music-note.png">
+    <title>Muzishan</title>
+</head>
+<body>
+    <a href="#" class="back-button"><img src="foto/up-arrow.png" alt=""></a>
+    <div class="container" id="parallax">
+        <nav>
+            <p class="logo">Muzishan</p>
+            <ul>
+                <li><a href="#omeni">O meni</a></li>
+                <li><a href="#dodaj-muziku">Dodaj muziku</a></li>
+            </ul>
+            <img src="foto/icons8-menu-30.png" class="menu" id="hamburger" onclick="open();">
+        </nav>
+        <div class="left-col">
+            <h1>Zabeležite vaše <br>omiljene pesme </h1>
+                <div class="osobe">
+                    <div class="osobe-pics">
+                        <img src="foto/slika1.jpg">
+                        <div class="info">
+                            <h4>Muzika te čini srećnim</h4>
+                        </div>
+                    </div>
+                    <div class="osobe-pics">
+                        <img src="foto/slika3.jpg">
+                        <div class="info">
+                            <h4>Osećaš se neverovatno</h4>
+                        </div>
+                    </div>
+                    <div class="osobe-pics">
+                        <img src="foto/pexels-jorge-fakhouri-filho-2701570.jpg">
+                        <div class="info">
+                            <h4>Radiš ono što voliš</h4>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="right-col">
+            <video autoplay loop muted class="back-video">
+                <source src="video/pexels-anthony-shkraba-production-8039795.mp4" type="video/mp4">
+            </video>
+            <h3><i>"When all these trees saw us grow<br>
+                Cut our teeth and make our bones right here<br>
+                We'd play with shields made of stone<br>
+                Share our dreams and sit our thrones<br>
+                Be still, 'cause I see smoke up ahead and I got steel in my hands<br>
+                We will return like warriors, I swear, that we'll find glory up ahead"</i></h3>
+                <h4><i>Ramsey - Goodbye</i></h4>
+        </div>
+
+        <div class="sidenav" id="sidenav">
+
+        </div>
+
+        
+    </div>
+    <div class="omeni" id="omeni">
+        <p>Jovan</p>
+    </div>
+
+
+    
+    <div class="dodaj-muziku" id="dodaj-muziku">
+        <div class="middle">
+            <table class="table1">
+                <tr>
+                    <td>
+                        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" class="form">
+                            <div>
+                                <label>Naziv pesme</label><label class="validation-error hide label1" id="nazivPesmeError">Polje naziv je obavezno!</label>
+                                <input type="text" name="nazivpesme" id="nazivpesme">
+                            </div>
+                            <div>
+                                <label>Adresa youtube videa</label>
+                                <input type="url" name="adresavidea" id="adresavidea">
+                            </div>
+                            <div>
+                                <label>Ocena pesme</label>
+                                <input type="number" name="ocenapesme" id="ocenapesme">
+                            </div>
+                            <div>
+                                <label>Domaća / Strana</label>
+                                <input type="text" name="domacastrana" id="domacastrana">
+                            </div>
+                            <div class="form-action-buttons button">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        
+            <table class="table2">
+                <tr>
+                    <td>
+                        <div class="center">
+                            <table class="list" id="pesmelista">
+                                <thead>
+                                    <tr>
+                                        <th>Naziv pesme</th>
+                                        <th>Adresa youtube videa</th>
+                                        <th>Ocena pesme</th>
+                                        <th>Domaća / Strana</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+            
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
