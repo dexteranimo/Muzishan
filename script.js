@@ -101,6 +101,7 @@ function otvori() {
     let z = document.getElementById("zatvori");
     o.style.height = "100vh";
     z.style.opacity = "1";
+
 }
 function zatvori() {
     let o = document.getElementById("osajtu");
@@ -108,3 +109,15 @@ function zatvori() {
     o.style.height = "0vh";
     z2.style.opacity = "0";
 }
+
+$(document).ready(function(){
+    $('#show').click(function() {
+      $('.glavni').slideDown(700);
+    });
+});
+
+$(document).ready(function(){
+    $('#zatvori').click(function() {
+      $('.glavni').slideUp(300);
+    });
+});
