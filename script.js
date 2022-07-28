@@ -23,6 +23,9 @@ function onFormSubmit() {
     }
 }
 
+
+
+
 function readFormData() {
     var formData = {};
     formData["nazivpesme"] = document.getElementById("nazivpesme").value;
@@ -91,6 +94,10 @@ function validate() {
 }
 
 
+
+
+
+
 function pitaj(){
     document.getElementById("link-pitaj");
     location. href = "https://www.instagram.com/nidzolin/";
@@ -101,7 +108,6 @@ function otvori() {
     let z = document.getElementById("zatvori");
     o.style.height = "100vh";
     z.style.opacity = "1";
-
 }
 function zatvori() {
     let o = document.getElementById("osajtu");
