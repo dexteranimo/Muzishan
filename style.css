@@ -78,15 +78,15 @@ nav{
     color:rgb(206, 187, 252);
 }
 .container-novi h2{
-    font-size: 30pt;
+    font-size: 25pt;
     margin-bottom: 10px;
 }
 .container h3{
-    font-size: 24pt;
+    font-size: 18pt;
     margin-bottom: 20px;
 }
 .forma-dugme{
-    font-size: 20pt;
+    font-size: 16pt;
     background: transparent;
     border: 3px solid #fff;
     transition: ease-in-out 0.5s;
@@ -244,7 +244,7 @@ nav ul li a:hover:after{
     transform: translateY(-30px);
 }
 .omeni{
-    height: 70vh;
+    height: 70%;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("foto/pexels-karolina-grabowska-4195325.jpg");
     background-size: cover;
     background-position: center;
@@ -254,7 +254,8 @@ nav ul li a:hover:after{
 .dodaj-muziku{
     background-image: url("foto/gradient.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 .back-button img{
@@ -374,7 +375,7 @@ label.validation-error{
     padding-left: 10px;
 }   
 .table2{
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -468,3 +469,5 @@ span{
     background: transparent;
     border: 2px solid #f9004d;
 }
+
+
