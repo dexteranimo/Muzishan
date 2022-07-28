@@ -100,7 +100,7 @@ function validate() {
 
 function pitaj(){
     document.getElementById("link-pitaj");
-    location. href = "https://www.instagram.com/nidzolin/";
+    location.href = "https://www.instagram.com/nidzolin/";
 }
 
 function otvori() {
