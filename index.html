@@ -18,7 +18,6 @@
                 <li><a href="#omeni">O meni</a></li>
                 <li><a href="#dodaj-muziku">Dodaj muziku</a></li>
                 <li><a href="#" id="show" onclick="otvori()">O web sajtu</a></li>
-                
             </ul>            
         </nav>
 
@@ -30,9 +29,10 @@
                         <h2>Zanima vas nešto više o ovom sajtu?</h2>
                         <h3><span>Pošaljite mi poruku</span></h3>
                         <form action="https://formsubmit.co/fd78ed986658aea1db02dec2676e9156" method="POST">
+                            <label class="validation-error hide label1" id="poruka-label">Polja moraju biti popunjena!</label>
                             <input type="text" name="Naslov" placeholder="Naslov" required>
                             <input type="text" name="Email" placeholder="Vaša e-mail adresa" required>
-                            <textarea name="message" cols="30" rows="10" placeholder="Unesite tekst..." required></textarea>
+                            <textarea name="message" cols="30" rows="5" placeholder="Unesite tekst..." required id="textarea-poruke"></textarea>
                             <button type="submit" class="forma-dugme">Pošalji poruku</button>
                        </form>
                     </div>
@@ -83,7 +83,7 @@
     <div class="omeni" id="omeni">
         <section class="about">
             <div class="main">
-                <img src="foto/profile.jpg" alt="">
+                <img src="foto/profile.jpg">
                 <div class="about-text">
                     <h1>O meni</h1>
                     <h5>Developer <span>and Designer</span></h5>
