@@ -1,0 +1,135 @@
+@media only screen and (max-width: 500px) {
+    
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: block;
+    }
+    .container nav{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav ul{
+        margin-right: 0px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 0 20px;
+    }
+    nav ul li a{
+        font-size: 12pt;
+    }
+    .container p{
+        font-size: 16pt;
+        margin-left: 20px;
+    }
+    .osajtu{
+        width: 100%;
+    }
+    .left-col{
+        width: 100%;
+        height: 100%;
+    }
+    .left-col h1{
+        font-size: 26pt;
+        margin-top: 130px;
+        margin-left: 20px;
+        padding-left: 20px;
+        flex-basis: none;
+    }
+    .left-col h1::before{
+        height: 15%;
+        top: 27%;
+        left: 40px;
+        padding: 0px;
+    }
+    .osobe{
+        margin-top: 50px;
+    }
+    .osobe-pics:hover{
+        transform: none;
+    }
+    .info{
+        display: none;
+    }
+    .container h3{
+        font-size: 12pt;
+        margin-bottom: 50px;
+        margin-right: 40px;
+    }
+    .right-col h3::before{
+        left: 20px;
+    }
+    .right-col h4{
+        bottom: 80px;
+    }
+    .back-video{
+        display: none;
+    }
+    .right-col{
+        background-color: transparent;
+    }
+    .omeni{
+        height: 100vh;
+    }
+    .main{
+        width: 95%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .main img{
+        width: 300px;
+    }
+    .about-text h1{
+        font-size: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .about-text p{
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .about-text{
+        width: 400px;
+    }
+    .link-pitaj:hover{
+        background: rgb(121, 83, 210);
+        border: 2px solid transparent;
+    }
+    .download:hover{
+        background: #f9004d;
+        border: 2px solid transparent;
+    }
+    .dodaj-muziku{
+        padding-bottom: 100px;
+    }
+    .middle h1{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .middle{
+        padding: 20px 0px 0px 0px;
+    }
+    .table1{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .table2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .back-button img{
+        right: 40px;
+        bottom: 20px;
+    }
+  }
