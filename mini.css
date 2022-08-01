@@ -67,6 +67,9 @@
         margin-right: 40px;
         color:rgb(121, 83, 210);
     }
+    .about-text span{
+        color: #f9004d; 
+    }
     .right-col h3{
         font-size: 12pt;
     }
@@ -90,9 +93,6 @@
         height: 100vh;
         background: rgb(2,0,36);
         background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(128,37,224,1) 100%);
-    }
-    .container span{
-        color: #f9004d;
     }
     .main{
         width: 95%;
