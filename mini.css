@@ -22,6 +22,12 @@
     nav ul li a{
         font-size: 12pt;
     }
+    nav ul li a:after{
+        transition: none;
+    }
+    nav ul li a:hover:after{
+        width: 0%;
+    }
     .container p{
         font-size: 16pt;
         margin-left: 20px;
