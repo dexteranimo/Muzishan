@@ -159,19 +159,8 @@ document.querySelectorAll(".navMali").forEach(n => n.addEventListener("click", (
 
 
 
-// window.onload = function (){
-//     window.setTimeout(preloaderNestani, 2500);
-// }
-// function preloaderNestani(){
-//     let preloader = document.getElementById("preloader");
-//     preloader.style.opacity = "0";
-// }
-
 $(document).ready(function() {
     $('#preloader').delay(3000).fadeOut(400);
 });
 
-// $(document).ready(function () {
-//     $("#preload").hide();
-// });
 
