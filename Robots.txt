@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /foto/
+Disallow: /video/
+Disallow: /favicon/
+Disallow: /CV/
+Disallow: /style.css
+Disallow: /mini.css
